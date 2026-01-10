@@ -1,6 +1,6 @@
 # Books Web API - Docker PostgreSQL Redis - .NET 10
 
-This repository showcases a sample API built with .NET 10, designed to demonstrate the integration of Docker Compose for container orchestration. The application utilizes PostgreSQL as its primary database and Redis for caching, providing a robust foundation for scalable web Apis.
+This repository showcases a sample API built with .NET 10, designed to demonstrate the integration of Docker Compose for container orchestration. The application utilizes PostgreSQL as its primary database and Redis for caching, providing a robust foundation for scalable web API.
 
 ## Table of Contents
 
