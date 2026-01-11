@@ -27,7 +27,19 @@ To get a local copy up and running, follow these simple steps.
    ```sh
    cd Books-Web-API-Docker-Postgresql-Redis-.NET-10
    ```
-3. Build and run the application:
+3. Clean the existing HTTPS certificates
+   ```sh
+   dotnet dev-certs https --clean
+   ``` 
+4. Generate the certificate (if not already present)
+   ```sh
+   dotnet dev-certs https
+   ```
+5. Trust the certificate
+   ```sh
+   dotnet dev-certs https --trust
+   ```
+6. Build and run the application:
    ```sh
    docker-compose up --build
    ```
